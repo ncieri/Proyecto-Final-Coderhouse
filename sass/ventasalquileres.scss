@@ -1,0 +1,120 @@
+.flex-row-propiedades {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+
+    
+}
+
+.destacadas {
+  padding: 0 0 2em 0;
+}
+
+.container__propiedades {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.card {
+    width: 360px;
+    min-height: 360px;
+    height: fit-content;
+    background: white;
+    border-radius: 4px;
+    margin: 0 20px;
+    -webkit-box-shadow: 0 0 5px lightgray;
+    
+    
+  }
+  
+  .top-card {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .top-card img {
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
+  .mid-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mid-card h4 {
+    color: #222222;
+  }
+  
+  .city {
+    margin: 2px 0;
+    font-size: 1.4rem;
+  }
+  
+  .description {
+    font-size: 14px;
+    margin: 10px 0 0 0;
+    text-align: justify;
+    text-overflow: ellipsis;
+  }
+  
+  .rooms {
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    color: $primarycolor;  
+  }
+  
+  .rooms i {
+    padding: 5px;
+    font-size: 1.7rem;
+    border-radius: 50px;
+    border: 1px solid $primarycolor;
+    color: $primarycolor;  
+    cursor: pointer;
+    transition: .3s ease-out;
+  }
+  
+  .rooms i:hover {
+    border: 1px solid $primarycolor;
+    color: #010a70;  
+  }
+  
+  .rooms p {
+    font-size: 16px;
+    margin: 0 15px 0 5px;
+  }
+
+  
+  
+  .propiedades-destacadas {
+
+    h6 {
+      font-size: 1.9rem;
+    font-family: $font-primary;
+    font-weight: 400;
+    text-align: center;
+    margin: 30px 0 30px 0;
+    }
+  }
+
+  .prices {
+    height: 100%;
+  display: grid;
+    button {
+     background-color: $primarycolor;
+     font-size: 1.3rem ;
+     border: none;
+     
+    }
+  button:hover {
+    background-color: #010a70;
+  }
+  
+  }
+

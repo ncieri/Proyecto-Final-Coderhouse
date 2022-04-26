@@ -1,0 +1,101 @@
+/*Home*/
+
+.search-button {
+    font-family: $font-primary;
+    color: white;
+    background-color: $primarycolor;
+    padding: 13px 20px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 2px solid $primarycolor !important;
+    border-radius: 6px;
+    width: 140px;  
+    margin-bottom: -12px;
+
+}
+
+.search-button:hover {
+    color: $primarycolor;
+    background-color: white;
+    border: 2px solid $primarycolor !important; 
+    transition: 0.4s; 
+}
+.form__index {
+    background-color: $primarycolor;
+    height: 26vh;
+    justify-content: center;
+    align-items: center;
+    @include flex(row, center, center, 1em)
+    
+}
+
+.form-group {
+    padding: 0px !important;
+}
+
+.form-control {
+    border: px solid $primarycolor;
+    width: 100% !important;
+}
+
+.col-2 {
+    padding: 20px 20px 20px 20px;
+    
+}
+
+
+.search__text {
+    padding-bottom: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 200;
+    color: $secondarycolor ;
+    font-family: $font-primary;
+    
+}
+
+.servicios {
+    margin-bottom: 7rem;
+}
+
+.description__servicios {
+    font-size: 1.4rem;
+}
+
+.header__servicios {
+    font-family: $font-primary;
+    font-size: 90px;
+    font-weight: 700;
+    margin: 3.5rem 0 3.5rem 0;
+    h3 {
+        font-size: 2.9rem;
+    }
+    @include flex(row, center, center, 0em)
+    
+}
+
+.circles {
+    width: 70px;
+    height: 70px;
+    line-height: 70px !important;
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.circles {
+    background-color: $primarycolor;
+    
+}
+
+.div__servicios {
+    align-items: center;
+    text-align: center;
+    margin: 0 20px 40px;
+    padding-bottom: 18px;
+}

@@ -1,0 +1,26 @@
+/*Variables*/ 
+
+@import '../misc/variables';
+
+
+/* Normalize */
+@import '../misc/normalize';
+
+/* Mixins*/
+
+@import '../misc/mixins';
+
+/*Partials */ 
+
+@import '../partials/header';
+
+@import '../partials/footer';
+
+
+@import '../partials/home.scss';
+
+@import './zonas.scss';
+
+@import './nosotros.scss';
+
+@import './ventasalquileres.scss';

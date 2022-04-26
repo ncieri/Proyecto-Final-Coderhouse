@@ -1,0 +1,46 @@
+.div__nosotros {
+margin-left: 2rem;
+  background-color:#fff;
+  display:grid;
+  grid-template-columns:  300px 300px; 
+  grid-row: auto auto;
+  grid-column-gap: 0.2rem;
+  grid-row-gap: 0.2rem;
+  justify-content: center;
+}
+
+
+
+.nosotros__content {
+    padding: 2rem;
+    .div__nosotros__img {
+        display: flex;
+        justify-content: center;
+        
+
+    }
+}
+
+.div__nosotros div {
+    padding: 20px;
+    color:black;
+    align-items:center;
+    justify-content:center;
+    
+    h6 {
+        font-family: $font-primary;
+        font-weight: 500;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+}
+
+.nosotros__box {
+border-bottom:solid 1px grey;
+}
+
+

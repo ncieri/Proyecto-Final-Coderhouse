@@ -1,0 +1,47 @@
+.header {
+    background-color: $primarycolor;     
+}
+
+.navbar {
+    height: 19vh;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 1.8rem;
+    .navbar__logo {
+        
+        .logo__img {
+            width: 170px;
+        }
+    }
+    
+}
+
+.navbar__menu {
+    flex-basis: 30%;
+    justify-content: space-between;
+    gap: 2em;
+
+
+}
+
+.navbar__link {
+    font-family: $font-primary !important;
+    font-size: 1.8rem;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    height: 5.5vh;
+    
+}
+
+.navbar__link:hover {
+    border-bottom: 2.3px solid white;
+ }
+
+
+
+
+
+
+
+
