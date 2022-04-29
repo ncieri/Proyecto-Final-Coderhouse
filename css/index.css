@@ -131,6 +131,9 @@ a {
     margin: 0 auto !important;
     align-items: center !important; }
   .footer__box1 {
+    padding-bottom: 20px; }
+  .form__index {
+    padding-top: 20px;
     padding-bottom: 20px; } }
 
 @media (max-width: 580px) {
@@ -144,7 +147,10 @@ a {
       justify-content: center;
       max-width: 400px !important; }
   .nosotros__img {
-    width: 350px; } }
+    width: 350px; }
+  .form__index {
+    padding-top: 20px;
+    padding-bottom: 20px; } }
 
 @media (max-width: 420px) {
   .navbar__menu {
@@ -152,7 +158,10 @@ a {
     margin: 0 auto !important; }
   .navbar__item {
     gap: 2px !important;
-    margin: 0 auto !important; } }
+    margin: 0 auto !important; }
+  .form__index {
+    padding-top: 20px;
+    padding-bottom: 20px; } }
 
 /*Partials */
 .header {
